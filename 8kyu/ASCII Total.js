@@ -9,4 +9,4 @@ uniTotal("a") == 97
 uniTotal("aaa") == 291
 */
 
-const uniTotal = (string) => [...string].reduce((total, arg) => total += arg.codePointAt(0), 0);
+const uniTotal = (string) => [...string].reduce((total, arg) => total + arg.codePointAt(0), 0);
